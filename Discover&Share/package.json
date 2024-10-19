@@ -1,0 +1,30 @@
+{
+	"name": "discover-n-share",
+	"version": "1.0.0",
+	"description": "An app to discover and share favorite products.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"keywords": [
+		"postgresql",
+		"sql",
+		"database",
+		"express",
+		"express handlebars"
+	],
+	"author": "Dawit Urgessa",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.20.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.18.2",
+		"express-handlebars": "^6.0.6",
+		"mysql": "^2.18.1",
+		"pg": "^8.3.3"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
